@@ -1,0 +1,4 @@
+#Sat May 11 22:26:35 PDT 2019
+base.0=/Users/school/Downloads/CougarCalendar/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex
