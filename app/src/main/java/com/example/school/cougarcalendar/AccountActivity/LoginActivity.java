@@ -11,8 +11,10 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.example.school.cougarcalendar.AddClassActivityActivity;
 import com.example.school.cougarcalendar.MainActivity;
 import com.example.school.cougarcalendar.R;
+import com.example.school.cougarcalendar.TeacherClasses.CreateClassTeacher;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -32,6 +34,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if(auth.getCurrentUser() != null){
             startActivity(new Intent(LoginActivity.this, MainActivity.class));
+            //startActivity(new Intent(LoginActivity.this, CreateClassTeacher.class));
             finish();
         }
 
@@ -93,7 +96,8 @@ public class LoginActivity extends AppCompatActivity {
                                     }
 
                                 } else {
-                                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                    //Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                    Intent intent = new Intent(LoginActivity.this, CreateClassTeacher.class);
                                     startActivity(intent);
                                     finish();
                                 }

@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">CougarCalendar</string>
     <string name="classes">Classes</string>
+    <string name = "text"> </string>
     <string-array name="names">
         <item>World History</item>
         <item>World History AP</item>
@@ -36,6 +37,107 @@
         <item>Calculus AB</item>
         <item>Calculus BC</item>
         <item>Intro to CS</item>
+    </string-array>
+    <string-array name="subjects">
+        <item>Social Science</item>
+        <item>English</item>
+        <item>Math</item>
+        <item>Science</item>
+        <item>Language</item>
+        <item>Electives</item>
+    </string-array>
+
+    <string-array name="socialscience">
+        <item>World History</item>
+        <item>World History AP</item>
+        <item>US History</item>
+        <item>US History AP  </item>
+        <item>American Government</item>
+        <item>Government and Politics AP</item>
+        <item>Psychology</item>
+        <item>Economics  </item>
+        <item>Macroeconomics AP</item>
+        <item>Psychology AP</item>
+    </string-array>
+
+    <string-array name="english">
+        <item>ELD Language Arts 3</item>
+        <item>English 1 </item>
+        <item>English 1A</item>
+        <item>English 2</item>
+        <item>English 2A</item>
+        <item>English 3</item>
+        <item>ERWC</item>
+        <item>Genres of Composition</item>
+        <item>English Language and Composition AP</item>
+        <item>English Literature AP</item>
+    </string-array>
+
+    <string-array name="math">
+        <item>CCSS 1</item>
+        <item>CCSS 2</item>
+        <item>Geometry</item>
+        <item>Alebgra 2  </item>
+        <item>Math Analysis</item>
+        <item>Calculus AB</item>
+        <item>Calculus BC</item>
+        <item>Intro to CS</item>
+        <item>Computer Science AP</item>
+        <item>Principles of Computer Science</item>
+        <item>Math Analysis</item>
+        <item>Calculus AB</item>
+        <item>Calculus BC</item>
+        <item>Intro to CS</item>
+    </string-array>
+
+    <string-array name="science">
+        <item>Biology</item>
+        <item>Chemistry</item>
+        <item>Physics</item>
+        <item>Forensic Science</item>
+        <item>Biology AP</item>
+        <item>Physics 1 AP</item>
+        <item>Physics 2 AP</item>
+        <item>Physics C: Mechanics AP</item>
+        <item>Chemistry AP</item>
+    </string-array>
+
+    <string-array name="language">
+        <item>Spanish 1</item>
+        <item>Spanish 2</item>
+        <item>Spanish Heritage</item>
+        <item>Spanish Lang AP </item>
+        <item>Spanish Lit AP</item>
+        <item>French 1</item>
+        <item>French 2</item>
+        <item>French 3</item>
+        <item>French Lang AP</item>
+        <item>Chinese 1</item>
+        <item>Chinese 2</item>
+        <item>Chinese 3</item>
+        <item>Chinese Lang AP</item>
+        <item>Viet 1</item>
+        <item>Viet 2</item>
+        <item>Viet 3</item>
+        <item>Viet 4</item>
+    </string-array>
+
+    <string-array name="electives">
+        <item>Art 1</item>
+        <item>Drawing and Painting</item>
+        <item>Multimedia</item>
+        <item>Photography </item>
+        <item>Drama 1</item>
+        <item>Drama 2-4</item>
+        <item>Tech Theatre</item>
+        <item>Guitar 1</item>
+        <item>Guitar 2-4</item>
+        <item>Choir 1</item>
+        <item>Choir 2-4</item>
+        <item>Advanced Band 1</item>
+        <item>Advanced Band 2-4</item>
+        <item>Orchestra 2-4</item>
+        <item>Music Appreciation</item>
     </string-array>
 
     <string name="action_sign_in_short">Register</string>
