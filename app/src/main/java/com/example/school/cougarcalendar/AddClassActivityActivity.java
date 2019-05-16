@@ -26,12 +26,12 @@ public class AddClassActivityActivity extends AppCompatActivity {
 //        listAdapter = new ExpandableListAdapter(this, listDataHeader, listHash);
 //        listView.setAdapter(listAdapter);
 
-        Spinner mySpinner = (Spinner) findViewById(R.id.spinner);
+       // Spinner mySpinner = (Spinner) findViewById(R.id.spinner);
 
-        ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(AddClassActivityActivity.this ,
-                                            android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.names ));
-        myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        mySpinner.setAdapter(myAdapter);
+//        ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(AddClassActivityActivity.this ,
+//                                            android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.names ));
+//        myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+//        mySpinner.setAdapter(myAdapter);
 
 
 

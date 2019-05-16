@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CougarCalendar</string>
     <string name="classes">Classes</string>
-    <string name = "text"> </string>
+    <string name="text"> </string>
     <string-array name="names">
         <item>World History</item>
         <item>World History AP</item>
@@ -131,13 +131,25 @@
         <item>Drama 2-4</item>
         <item>Tech Theatre</item>
         <item>Guitar 1</item>
-        <item>Guitar 2-4</item>
+        <item>Guitar 2:4</item>
         <item>Choir 1</item>
-        <item>Choir 2-4</item>
+        <item>Choir 2:4</item>
         <item>Advanced Band 1</item>
-        <item>Advanced Band 2-4</item>
-        <item>Orchestra 2-4</item>
+        <item>Advanced Band 2:4</item>
+        <item>Orchestra 2:4</item>
         <item>Music Appreciation</item>
+    </string-array>
+
+    <string-array name="periods">
+        <item>Period 1</item>
+        <item>Period 2</item>
+        <item>Period 3</item>
+        <item>Period 4</item>
+        <item>Period 5</item>
+        <item>Period 6</item>
+        <item>Period 7</item>
+
+
     </string-array>
 
     <string name="action_sign_in_short">Register</string>

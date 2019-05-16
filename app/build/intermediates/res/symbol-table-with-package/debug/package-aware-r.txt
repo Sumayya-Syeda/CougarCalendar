@@ -16,6 +16,7 @@ array english
 array language
 array math
 array names
+array periods
 array science
 array socialscience
 array subjects
@@ -790,6 +791,7 @@ id parent
 id parentPanel
 id password
 id percent
+id periods
 id progressBar
 id progress_circular
 id progress_horizontal
@@ -832,7 +834,6 @@ id src_over
 id standard
 id start
 id status_bar_latest_event_content
-id subjectText
 id subjects
 id submenuarrow
 id submit_area
