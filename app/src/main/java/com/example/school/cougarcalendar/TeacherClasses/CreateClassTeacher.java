@@ -12,10 +12,13 @@ import android.widget.Toast;
 import com.example.school.cougarcalendar.AddClassActivityActivity;
 import com.example.school.cougarcalendar.R;
 
+import java.util.ArrayList;
+
 public class CreateClassTeacher extends AppCompatActivity {
     private String selectedItemText;
     Spinner spinnerCourses;
     ArrayAdapter<String> coursesAdapter;
+    ArrayList<String> myClasses;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         String id = "";
@@ -89,5 +92,23 @@ public class CreateClassTeacher extends AppCompatActivity {
 
         coursesAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerCourses.setAdapter(coursesAdapter);
+
+        spinnerCourses.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                myClasses.add((String) parent.getItemAtPosition(position));
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+
+    }
+
+    public ArrayList<String> getMyClasses(){
+        return myClasses;
     }
 }
